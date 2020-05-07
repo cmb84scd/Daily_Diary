@@ -5,8 +5,8 @@ describe Diary do
     it 'returns all entries' do
       diary = Diary.all
 
-      expect(diary).to include("Entry 1")
-      expect(diary).to include("Entry 2")
+      expect(diary).to include("What a lovely day")
+      expect(diary).to include("An interesting day")
     end
   end
 end
