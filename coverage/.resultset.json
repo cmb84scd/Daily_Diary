@@ -15,8 +15,15 @@
       "/Users/student/Projects/week4/Daily_Diary/spec/features/view_entries_spec.rb": {
         "lines": [
           1,
+          null,
           1,
           1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
           1,
           1,
           null,
@@ -31,6 +38,10 @@
           1,
           1,
           1,
+          1,
+          1,
+          null,
+          1,
           null,
           1,
           1,
@@ -40,6 +51,6 @@
         ]
       }
     },
-    "timestamp": 1588848835
+    "timestamp": 1588850525
   }
 }
