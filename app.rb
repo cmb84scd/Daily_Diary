@@ -2,7 +2,11 @@ require 'sinatra/base'
 
 class DailyDiary < Sinatra::Base
   get '/' do
-    'Welcome to Daily Diary!'
+    erb(:index)
+  end
+
+  get '/entries' do
+    erb(:entries)
   end
 
   run! if app_file == $0
