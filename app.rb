@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require './lib/diary'
 
 class DailyDiary < Sinatra::Base
   get '/' do
@@ -6,6 +7,7 @@ class DailyDiary < Sinatra::Base
   end
 
   get '/entries' do
+    @entries = Diary.all
     erb(:entries)
   end
 

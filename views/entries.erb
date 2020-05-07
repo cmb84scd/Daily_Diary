@@ -1,2 +1,5 @@
-Entry 1<br>
-Entry 2
+<ul>
+  <% @entries.each do |entry| %>
+    <li><%= entry %></li>
+  <% end %>
+</ul>
