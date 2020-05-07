@@ -1,7 +1,17 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Projects/week4/Daily_Diary/spec/features/index_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
     },
-    "timestamp": 1588842337
+    "timestamp": 1588843506
   }
 }
